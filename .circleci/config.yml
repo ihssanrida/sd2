@@ -8,5 +8,5 @@ jobs:
       - image: cimg/node:lts
     steps:
       - checkout:
-          path: ~/Software_Engineering/Sprint3/src
-      - run: npm install
+          path: ~/Software_Engineering
+      - run: cd ./Sprint3/src | npm install
